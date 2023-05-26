@@ -1,0 +1,12 @@
+port: "8080"
+
+db:
+  host: "db"
+  port: "5432"
+  username: "postgres"
+  password: "password"
+  dbname: "postgres"
+  sslmode: "disable"
+
+migrations:
+  url: "file:////etc/app/migrations"
